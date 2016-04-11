@@ -6,7 +6,7 @@ def insert_name(name, arr)
 			x.sub("XXX", name.to_s)
 		end
 	end
-	array
+	array #DUDE WTF IS THIS.
 end
 
 def say(arr)
@@ -131,7 +131,7 @@ closing_lose = ["Keep trying XXX.", "Maybe one day you will become a Turing comp
 
 # =============================================================================================================================
 
-# Intro 
+# Intro
 say(intro_text)
 puts "\nPlease Enter your Name:\n"
 print ">> "
@@ -153,7 +153,7 @@ while stay_here
 	puts "\nChoose a number between 2 and 10.\n"
 	print ">> "
 
-	num_questions = gets.chomp.to_i 
+	num_questions = gets.chomp.to_i
 	if (2..10).include?(num_questions)
 		stay_here = false
 	end
