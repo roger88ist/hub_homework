@@ -4,7 +4,7 @@ def insert_name(name, arr)
 			x.sub("XXX", name)
 		else
 			x.sub("XXX", name.to_s)
-		end
+		end # my first push
 	end
 	array #DUDE WTF IS THIS.
 end
